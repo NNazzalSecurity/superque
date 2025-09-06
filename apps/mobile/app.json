@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Superque",
+    "slug": "superque",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.superque.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.superque.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78d99dc4-2316-41f5-b271-dc88ce59e653"
+      }
+    },
+    "owner": "nabil.nazzal"
+  }
+}
